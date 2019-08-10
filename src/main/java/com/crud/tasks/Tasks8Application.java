@@ -9,11 +9,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class Tasks8Application extends SpringBootServletInitializer {
 
-    public static void main(String[] args) {SpringApplication.run(Tasks8Application.class, args);
-    }
-    @Override
-    protected SpringApplicationBuilder configure (SpringApplicationBuilder application) {
-        return application.sources(Tasks8Application.class);
-    }
+    public static void main(String[] args) {SpringApplication.run(Tasks8Application.class, args);}
+    //@Override
+    // SpringApplicationBuilder configure (SpringApplicationBuilder application) {
+        // application.sources(Tasks8Application.class);
+    //}
 
 }
