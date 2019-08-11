@@ -102,5 +102,6 @@ public class TrelloClientTest {
 
         //then
         assertNotNull(emptyTrelloBoard);
+        assertEquals(0,emptyTrelloBoard.size());
     }
 }
