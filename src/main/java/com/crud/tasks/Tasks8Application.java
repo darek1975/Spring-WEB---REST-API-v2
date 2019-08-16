@@ -7,8 +7,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class Tasks8Application extends SpringBootServletInitializer {
-
+//ublic class Tasks8Application extends SpringBootServletInitializer {
+    public class Tasks8Application {
     public static void main(String[] args) {SpringApplication.run(Tasks8Application.class, args);}
     //@Override
     // SpringApplicationBuilder configure (SpringApplicationBuilder application) {
