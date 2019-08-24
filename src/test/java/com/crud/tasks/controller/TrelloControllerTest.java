@@ -98,9 +98,7 @@ public class TrelloControllerTest {
                 .content(jsonContent))
                 .andExpect(jsonPath("$.id", is("323")))
                 .andExpect(jsonPath("$.name", is("Test")))
-                .andExpect(jsonPath("$.shortUrl", is("http://test.com")))
-                .andExpect(jsonPath("$.badges.votes", is(0)))
-                .andExpect(jsonPath("$.badges.attachmentsByType.trello.board", is(0)))
-                .andExpect(jsonPath("$.badges.attachmentsByType.trello.card", is(0)));
+                .andExpect(jsonPath("$.shortUrl", is("http://test.com")));
+
     }
 }
